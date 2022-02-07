@@ -1,0 +1,17 @@
+NXP Software Content Register
+
+Outgoing License: NXP-Binary
+
+Release - DDR-PHY-BINARY 21.08
+August 2021
+
+--------------------------------------------
+
+Package:                     ddr-phy-binary
+Outgoing License:            NXP-Binary
+License File:                NXP-Binary-EULA.txt
+Package Category:            firmware
+Type of Content:             binary
+Description and comments:    DDR PHY firmware
+Release Location:            https://github.com/nxp/ddr-phy-binary
+
