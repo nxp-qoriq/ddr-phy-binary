@@ -1,1 +1,23 @@
-The prebuild DDR PHY binaries
+# The Prebuild DDR PHY Binaries
+
+## Build Notes
+
+They can be built using the following command:
+
+```bash
+tools/fiptool/fiptool create \
+  --ddr-immem-udimm-1d qoriq-ddr-phy-binary-lf-6.6.36-2.1.0/lx2160a/ddr4_pmu_train_imem.bin \
+  --ddr-immem-udimm-2d qoriq-ddr-phy-binary-lf-6.6.36-2.1.0/lx2160a/ddr4_2d_pmu_train_imem.bin \
+  --ddr-dmmem-udimm-1d qoriq-ddr-phy-binary-lf-6.6.36-2.1.0/lx2160a/ddr4_pmu_train_dmem.bin \
+  --ddr-dmmem-udimm-2d qoriq-ddr-phy-binary-lf-6.6.36-2.1.0/lx2160a/ddr4_2d_pmu_train_dmem.bin \
+  --ddr-immem-rdimm-1d qoriq-ddr-phy-binary-lf-6.6.36-2.1.0/lx2160a/ddr4_rdimm_pmu_train_imem.bin \
+  --ddr-immem-rdimm-2d qoriq-ddr-phy-binary-lf-6.6.36-2.1.0/lx2160a/ddr4_rdimm2d_pmu_train_imem.bin \
+  --ddr-dmmem-rdimm-1d qoriq-ddr-phy-binary-lf-6.6.36-2.1.0/lx2160a/ddr4_rdimm_pmu_train_dmem.bin \
+  --ddr-dmmem-rdimm-2d qoriq-ddr-phy-binary-lf-6.6.36-2.1.0/lx2160a/ddr4_rdimm2d_pmu_train_dmem.bin \
+  ddr_fip.bin
+```
+
+The output, `ddr_fip.bin`, is the same as `lx2160a/fip_ddr.bin` except the name was swapped from `fip_ddr` to `ddr_fip`.
+
+For more information, see:
+  https://github.com/ARM-software/arm-trusted-firmware/blob/master/plat/nxp/soc-lx2160a/ddr_fip.mk
