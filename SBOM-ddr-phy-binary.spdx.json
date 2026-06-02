@@ -1,0 +1,42 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2026-05-28T08:38:46Z",
+    "creators": [
+      "Organization: NXP"
+    ],
+    "licenseListVersion": "3.26"
+  },
+  "name": "ddr-phy-binary-lf-6.18.20-2.0.0",
+  "dataLicense": "CC0-1.0",
+  "hasExtractedLicensingInfos": [
+    {
+      "name": "NXP Binary Firmware License Agreement",
+      "licenseId": "LicenseRef-6621d972-be40-452c-ba47-3bd5ff50fdd4",
+      "extractedText": "NXP Binary Firmware License Agreement\nCopyright © 2017 NXP. All rights reserved.\nSoftware License Agreement (“Agreement”)\nANY USE, REPRODUCTION, OR DISTRIBUTION OF THE ACCOMPANYING BINARY SOFTWARE CONSTITUTES LICENSEE'S ACCEPTANCE OF THE TERMS AND CONDITIONS OF THIS AGREEMENT.\nLicensed Software. “Binary Software” means software in binary form specified in ANNEX A. Subject to the terms and conditions of this Agreement, NXP USA, Inc. (\"Licensor\"), grants to you (“Licensee”) a worldwide, non-exclusive, and royalty-free copyright license to reproduce and distribute the Binary Software in its complete and unmodified binary form as provided by Licensor, for use solely in conjunction with a programmable processing unit supplied directly or indirectly from Licensor.\nRestrictions. Licensee must reproduce the Licensor copyright notice above with each binary copy of the Binary Software or in the accompanying documentation. Licensee must not reverse engineer, decompile, disassemble or modify in any way the Binary Software. Licensee must not use the Binary Software in violation of any applicable law or regulation. This Agreement shall automatically terminate upon Licensee's breach of any term or condition of this Agreement in which case, Licensee shall destroy all copies of the Binary Software. Neither the name of Licensor nor the names of its suppliers may be used to endorse or promote products derived from this Binary Software without specific prior written permission.\nDisclaimer. TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR EXPRESSLY DISCLAIMS ANY WARRANTY FOR THE BINARY SOFTWARE. THE BINARY SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, LICENSOR DOES NOT WARRANT THAT THE BINARY SOFTWARE IS ERROR-FREE OR WILL OPERATE WITHOUT INTERRUPTION, AND LICENSOR GRANTS NO WARRANTY REGARDING ITS USE OR THE RESULTS THEREFROM, INCLUDING ITS CORRECTNESS, ACCURACY, OR RELIABILITY.\nIntellectual Property Rights. Licensor is not authorized to sell or license any software under the patents of QUALCOMM Incorporated or Snaptrack, Inc. Accordingly, neither the sale, license or provision of the Binary Software nor any provision of this Agreement shall be construed as to grant to Licensee either expressly, by implication or by way of estoppel, any license or other right under any of such patents of QUALCOMM Incorporated or Snaptrack, Inc. Licensee, on behalf of itself and its affiliates, agrees not to contend in any context that, as a result of the provision or use of any Binary Software or any portion thereof, either Licensor or any of its affiliates has any obligation to extend, or Licensee or any other party has obtained any right to, any license, whether express or implied, with respect to any patent of QUALCOMM Incorporated or Snaptrack, Inc. for any purpose.\nLimitation of Liability. IN NO EVENT WILL LICENSOR, OR ANY OF LICENSOR'S LICENSORS HAVE ANY LIABILITY HEREUNDER FOR ANY INDIRECT, SPECIAL, OR\nCONSEQUENTIAL DAMAGES, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER FOR BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE), OR OTHERWISE, ARISING OUT OF THIS AGREEMENT, INCLUDING DAMAGES FOR LOSS OF PROFITS, OR THE COST OF PROCUREMENT OF SUBSTITUTE GOODS, EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. LICENSOR’S TOTAL LIABILITY FOR ALL COSTS, DAMAGES, CLAIMS, OR LOSSES WHATSOEVER ARISING OUT\nOF OR IN CONNECTION WITH THIS AGREEMENT OR THE BINARY SOFTWARE SUPPLIED UNDER THIS AGREEMENT IS LIMITED TO THE AGGREGATE AMOUNT PAID BY LICENSEE TO LICENSOR IN CONNECTION WITH THE BINARY SOFTWARE TO WHICH LOSSES OR DAMAGES ARE CLAIMED.\nTrade Compliance. Licensee shall comply with all applicable export and import control laws and regulations including but not limited to the US Export Administration Regulation (including prohibited party lists issued by other federal
+    }
+  ],
+  "documentNamespace": "https://nxp.com/spdx/957e2c5b-458c-4864-a7f0-15dc9fb093eb",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-package-957e2c5b-458c-4864-a7f0-15dc9fb093eb",
+      "name": "ddr-phy-binary",
+      "versionInfo": "lf-6.18.20-2.0.0",
+      "licenseConcluded": "(LicenseRef-6621d972-be40-452c-ba47-3bd5ff50fdd4)",
+      "licenseDeclared": "(LicenseRef-6621d972-be40-452c-ba47-3bd5ff50fdd4)",
+      "downloadLocation": "https://github.com/nxp-qoriq/ddr-phy-binary -b lf-6.18.20-2.0.0",
+      "originator": "Organization: NXP (BSD-3-Clause) DPDK - Intel Corporation (BSD-3-Clause)  KNI Linux Device driver - Intel Corporation (GPL-2.0)  pmdinfogen - Neil Horman (GPL-2.0)",
+      "supplier": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-package-957e2c5b-458c-4864-a7f0-15dc9fb093eb"
+    }
+  ]
+}
